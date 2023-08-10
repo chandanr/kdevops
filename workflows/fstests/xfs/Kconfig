@@ -582,6 +582,12 @@ config FSTESTS_XFS_SECTION_REFLINK_NORMAPBT
 	      MKFS_OPTIONS='-f -m reflink=1,rmapbt=0, -i sparse=1,'
 	      FSTYP=xfs
 
+config FSTESTS_XFS_SECTION_REFLINK_STRIPE_LEN
+	bool "Enable testing section: xfs_reflink_stripe_len"
+	default y
+	help
+	  Will fill this later
+
 endif # FSTESTS_XFS_SECTION_REFLINK_ENABLED
 
 config FSTESTS_XFS_SECTION_BIGBLOCK
