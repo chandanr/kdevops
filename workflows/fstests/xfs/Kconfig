@@ -402,6 +402,14 @@ config FSTESTS_XFS_SECTION_REFLINK
 	      MKFS_OPTIONS='-f -m reflink=1,rmapbt=1, -i sparse=1,'
 	      FSTYP=xfs
 
+if FSTESTS_XFS_SECTION_LOGDEV_ENABLED
+config FSTESTS_XFS_SECTION_REFLINK_LOGDEV
+	bool "Enable testing section: xfs_reflink_logdev"
+	default y
+	help
+	  Will fill this later
+endif # FSTESTS_XFS_SECTION_LOGDEV_ENABLED
+
 config FSTESTS_XFS_SECTION_REFLINK_1024
 	bool "Enable testing section: xfs_reflink_1024"
 	default y
