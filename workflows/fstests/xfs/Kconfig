@@ -588,6 +588,12 @@ config FSTESTS_XFS_SECTION_REFLINK_STRIPE_LEN
 	help
 	  Will fill this later
 
+config FSTESTS_XFS_SECTION_REFLINK_NREXT64
+	bool "Enable testing section: xfs_reflink_nrext64"
+	default y
+	help
+	  Will fill this later
+
 endif # FSTESTS_XFS_SECTION_REFLINK_ENABLED
 
 config FSTESTS_XFS_SECTION_BIGBLOCK
