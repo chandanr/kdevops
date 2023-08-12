@@ -86,6 +86,9 @@ FSTESTS_ARGS += fstests_scratch_logdev='$(FSTESTS_SCRATCH_LOGDEV)'
 FSTESTS_SCRATCH_RTDEV:=$(subst ",,$(CONFIG_FSTESTS_SCRATCH_RTDEV))
 FSTESTS_ARGS += fstests_scratch_rtdev='$(FSTESTS_SCRATCH_RTDEV)'
 
+FSTESTS_TEST_RTLOGDEV_RTDEV:=$(subst ",,$(CONFIG_FSTESTS_TEST_RTLOGDEV_RTDEV))
+FSTESTS_ARGS += fstests_test_rtlogdev_rtdev='$(FSTESTS_TEST_RTLOGDEV_RTDEV)'
+
 SPARSE_GEN:=$(subst ",,$(CONFIG_FSTESTS_TESTDEV_SPARSEFILE_GENERATION))
 FSTESTS_ARGS += fstests_testdev_sparsefile_generation='True'
 FSTESTS_ARGS += sparsefiles_generation='$(SPARSE_GEN)'
