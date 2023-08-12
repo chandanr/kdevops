@@ -70,6 +70,8 @@ kdevops_bootlinux: False
 fstests_xfs_section_crc: False
 fstests_xfs_section_crc_logdev: False
 fstests_xfs_section_crc_rtdev: False
+fstests_xfs_section_crc_rtdev_extsize_28k: False
+fstests_xfs_section_crc_rtdev_extsize_64k: False
 fstests_xfs_section_crc_logdev_rtdev: False
 fstests_xfs_section_nocrc: False
 fstests_xfs_section_nocrc_512: False

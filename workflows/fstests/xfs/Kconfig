@@ -130,6 +130,19 @@ config FSTESTS_XFS_SECTION_CRC_RTDEV
 	  Will fill this later.
 	  Also, set the 'default' value.
 
+config FSTESTS_XFS_SECTION_CRC_RTDEV_EXTSIZE_28K
+	bool "Enable testing section: xfs_crc_rtdev_extsize_28k"
+	help
+	  Will fill this later
+	  Also, set the 'default' value.
+
+config FSTESTS_XFS_SECTION_CRC_RTDEV_EXTSIZE_64K
+	bool "Enable testing section: xfs_crc_rtdev_extsize_64k"
+	help
+	  Will fill this later
+	  Also, set the 'default' value.
+endif # FSTESTS_XFS_SECTION_RTDEV_ENABLED
+
 if FSTESTS_XFS_SECTION_LOGDEV_ENABLED && FSTESTS_XFS_SECTION_RTDEV_ENABLED
 config FSTESTS_XFS_SECTION_CRC_LOGDEV_RTDEV
 	bool "Enable testing section: xfs_crc_logdev_rtdev"
